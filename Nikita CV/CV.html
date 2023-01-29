@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Shitole</title>
+    <style>
+        body{
+            background-color: rgb(204, 226, 233);
+            background-color: rgb(245, 217, 217);
+            background-color: #FBEAEB;
+            font-family: Verdana, sans-serif;
+        }
+
+        .container{
+            margin: 5% 15% 5% 15%;
+            height: fit-content;
+            height: fit-content;
+            background: white;
+            border-radius: 30px;
+            padding: 3%;
+            text-align: left;
+        }
+
+        img{
+            width: 186px;
+            height: 233px;
+            object-fit: cover;
+            object-position: 10% 5%;
+            border-radius: 10%;
+            margin-left: 35px;
+            margin-top: 22px;
+        }
+
+        hr{
+            height: 2px;
+            border: none;
+            border: 1px solid black;
+            background: black;
+            /* box-shadow: 5px 5px 5px lightblue; */
+        }
+
+        .divider{
+            width: 2px;
+            margin: -5px 30px;
+            background: rgb(0, 0, 0, 0.5);
+        }
+
+        table, td, tr, th{
+            table-layout: fixed;
+            width: 100%;
+            /* border: 1px solid black; */
+            text-align: center;
+            height: 80px;
+        }
+
+        td{
+            font-size: large;
+        }
+
+        progress[value] {
+            width: 250px;
+            height: 20px;
+        }
+
+        progress {
+        accent-color: #2F3C7E;
+      }
+
+    </style>
+</head>
+
+<body>
+    <section class="container" style="text-align: center;">
+        <!-- information -->
+        <section class="info" style="display: flex; justify-content: space-between;"> 
+            <div class="photo">
+                <img src="./photo.jpg" alt="My photo">
+            </div>
+            
+            <div class="text">
+                <header style="font-size: 45px;"><b style="color: #2F3C7E;">Hi, I'm Nikita Shitole</b></header>
+                <p style="font-size: large;">B.Tech — Computer Engineering <br>
+                Vishwakarma Institute of Technology, Pune</p><br><br>
+                <p style="font-size: medium;">An undergrad student determined to <br> make the world a better place using {} and ;<br>Loves new challeges, technology and <br> thinking outside the box📦</p>
+            </div>
+        </section>
+
+        <br><br><hr><br>
+
+        <section class="s1" style="text-align: left;">
+            <h2 style="color: #2F3C7E; text-align: center;">Education</h2><br><br>
+            <div class="flexbox" style="display: flex; margin: rem auto;">
+                <div class="year">
+                    2020-2024 <br> <span style="font-size: small;"><i>(4 years)</i></span>
+                </div>
+                <div class="divider"></div>
+                <div>
+                    <b style="color: #2F3C7E;">Vishwakarma Institute of Technology, Pune</b> <br>
+                    B.Tech — Computer Engineering <br> Graduation
+                </div>
+            </div><br><br><br>
+
+            <div class="flexbox" style="display: flex; margin: rem auto;">
+                <div class="year">
+                    2018-2020 <br> <span style="font-size: small;"><i>(2 years)</i></span>
+                </div>
+                <div class="divider"></div>
+                <div>
+                    <b style="color: #2F3C7E;">Sardar Dastur Hormazdiar Junior College, Pune</b> <br>
+                    Maharashtra State Board - HSC <br> 12th Grade
+                </div>
+            </div><br><br><br>
+
+            <div class="flexbox" style="display: flex; margin: rem auto;">
+                <div class="year">
+                    2009-2018 <br> <span style="font-size: small;"><i>(9 years)</i></span>
+                </div>
+                <div class="divider"></div>
+                <div>
+                    <b style="color: #2F3C7E;">St. Helena's School, Pune</b> <br>
+                    Indian Certificate of Secondary Education - ICSE <br> 10th Grade
+                </div>
+            </div>
+
+        </section>
+        <br><br><hr><br>
+        
+        <h2 style="color: #2F3C7E; text-align: center;">Skills</h2><br>
+        <table class="s2">
+            <tbody>
+                <tr>
+                    <td>C++ <br>
+                        <progress id="c++" max="100" value="80" ></progress>
+                    </td>
+                    <td>Java<br>
+                        <progress id="java" max="100" value="60" ></progress>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>HTML<br>
+                        <progress id="java" max="100" value="90" ></progress>
+                    </td>
+                    <td>CSS<br>
+                        <progress id="java" max="100" value="85" ></progress>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>DBMS<br>
+                        <progress id="java" max="100" value="65" ></progress>
+                    </td>
+                    <td>Data Science <br>
+                        <progress id="java" max="100" value="50" ></progress>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>PHP<br>
+                        <progress id="java" max="100" value="40" ></progress>
+                    </td>
+                    <td>PL/SQL<br>
+                        <progress id="java" max="100" value="75" ></progress>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <br><br><hr><br>
+
+        <section class="s3">
+            <h2 style="color: #2F3C7E; text-align: center;">Projects</h2><br>
+            <div class="flexbox" style="display: flex; justify-content: space-around; font-size: large;">
+                <div style="width: 50%; text-align: center;">
+                    <b>Flood Management System | 2022 </b><br>
+                    <ul style="margin-left: -20px;">
+                        <li>Created a system to detect floods by installing ultrasonic sensors, LEDs, tilt sensor and temperature/humidity sensor on a NodeMCU.</li><br>
+                        <li>Developed a web application to monitor the readings and let the farmers/users keep a track too.</li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+                
+                <div style="width: 50%; text-align: center;">
+                    <b>Smart Irrigation System | 2023</b><br>
+                    <ul style="margin-left: -20px;">
+                        <li>Using a soil moisture sensor, Arduino UNO, Humidity and Temperature sensor and Servo Motor, a Smart Irrigation Method was achieved.</li><br>
+                        <li>Combined it with Flood Management System for more effciency.</li><br>
+                        <li>Website for both the systems with individual tracking.</li>
+                    </ul>
+                </div>
+            </div><br><br>
+
+            <div style="text-align: center; font-size: large;">
+                <b>Smart Fingerprint Voting System | 2023</b><br>
+                <ul style="text-align: center;">
+                    <li>Created an application for voting through fingerprint sensors keeping in mind the difficulties faced while using an EVM.</li><br>
+                    <li>Using HTML, CSS, PHP and MySQL a website was developed for users to vote and authorized members to login and view the votes.</li>
+                </ul>
+        </section>
+        <br><br><hr><br>
+        
+        <section class="s4">
+            <h2 style="color: #2F3C7E; text-align: center;">In my freetime you'll find me occupied with</h2><br>
+            <div class="flexbox" style="display: flex; justify-content: space-around; font-size: large;">
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_m5evszda.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                <br>
+                Photography
+            </div>
+            
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_zxqidhmu.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                <br>
+                Bharatnatyam
+            </div>
+            
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_bwkm4sco.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                <br>
+                Canvas Painting
+            </div>
+            </div><br>
+
+            <div class="flexbox" style="display: flex; justify-content: space-around; font-size: large;">
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_acqzpen0.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player> 
+                <br>
+                Listening to Music/Singing
+            </div>
+            
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_rwxyvqzx.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                <br>
+                Books
+            </div>
+            
+            <div>
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_0VDqUYk6MS.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+                <br>
+                Driving
+            </div>
+            </div>
+        </section><br><br><br><br><br><br><br><br>
+
+        <div class="flexbox" style="display: flex; justify-content: space-around; font-size: large;">
+                <div class="email">
+                    Email: nikitamshitole@gmail.com <br>
+                    <a href = "mailto: nikitamshitole@gmail.com">Send Email</a>
+                </div>
+
+                <div class="phno">
+                    Contact No: (+91)9511837100 <br>
+                    <a href="tel:+919511837100">Contact me</a>
+                </div>
+        </div>
+
+    </section>
+</body>
+</html>
